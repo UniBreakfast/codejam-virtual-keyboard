@@ -4,7 +4,8 @@ const keys = [
     "keyCode": 192,
     "shiftKey": "~",
     "ruKey": "ё",
-    "ruShiftKey": "Ё"
+    "ruShiftKey": "Ё",
+    "dark": true
   },
   {
     "key": "1",
@@ -75,11 +76,13 @@ const keys = [
   },
   {
     "key": "Backspace",
-    "keyCode": 8
+    "keyCode": 8,
+    "dark": true
   },
   {
     "key": "Tab",
-    "keyCode": 9
+    "keyCode": 9,
+    "dark": true
   },
   {
     "key": "q",
@@ -172,8 +175,14 @@ const keys = [
     "ruShiftKey": "/"
   },
   {
+    "key": "Delete",
+    "keyCode": 46,
+    "dark": true
+  },
+  {
     "key": "CapsLock",
-    "keyCode": 20
+    "keyCode": 20,
+    "dark": true
   },
   {
     "key": "a",
@@ -254,11 +263,13 @@ const keys = [
   },
   {
     "key": "Enter",
-    "keyCode": 13
+    "keyCode": 13,
+    "dark": true
   },
   {
     "key": "Shift",
     "keyCode": 16,
+    "dark": true
   },
   {
     "key": "z",
@@ -331,39 +342,47 @@ const keys = [
     "ruShiftKey": ","
   },
   {
-    "key": "Control",
-    "keyCode": 17,
-  },
-  {
-    "key": "Meta",
-    "keyCode": 91
-  },
-  {
-    "key": "Alt",
-    "keyCode": 18
-  },
-  {
-    "key": " ",
-    "keyCode": 32
-  },
-  {
-    "key": "ArrowLeft",
-    "keyCode": 37
-  },
-  {
     "key": "ArrowUp",
     "keyCode": 38
   },
   {
+    "key": "Shift",
+    "keyCode": 16,
+    "dark": true
+  },
+  {
+    "key": "Control",
+    "keyCode": 17,
+    "dark": true
+  },
+  {
+    "key": "Meta",
+    "keyCode": 91,
+    "dark": true
+  },
+  {
+    "key": "Alt",
+    "keyCode": 18,
+    "dark": true
+  },
+  {
+    "key": " ",
+    "keyCode": 32,
+    "dark": true
+  },
+  {
+    "key": "ArrowLeft",
+    "keyCode": 37,
+    "dark": true
+  },
+  {
     "key": "ArrowDown",
-    "keyCode": 40
+    "keyCode": 40,
+    "dark": true
   },
   {
     "key": "ArrowRight",
-    "keyCode": 39
-  },
-  {
-    "key": "Delete",
-    "keyCode": 46
+    "keyCode": 39,
+    "dark": true
   }
 ]
