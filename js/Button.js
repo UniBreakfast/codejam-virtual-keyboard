@@ -6,7 +6,8 @@ export default class Button {
 
   render() {
     const btn = document.createElement('button')
-    btn.className = `virtual-keyboard__key${this.dark ? 'dark' : ''}`
+    btn.className = `virtual-keyboard__key${this.dark ?
+      ' virtual-keyboard__key_dark' : ''}`
     btn.append(...[
       createLabel(this.key, 'label'),
       createLabel(this.supKey, 'supLabel'),
