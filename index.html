@@ -5,9 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Virtual Keyboard</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <script src="script.js" type="module" defer></script>
 </head>
 <body>
-
+  <div class="virtual-keyboard">
+    <div class="virtual-keyboard__input-field"></div>
+    <div class="virtual-keyboard__keyboard">
+      <div class="virtual-keyboard__row">
+        <button class="virtual-keyboard__key"> ~ </button>
+      </div>
+      <div class="virtual-keyboard__row">
+        <button class="virtual-keyboard__key virtual-keyboard__key_dark"> Tab </button>
+      </div>
+      <div class="virtual-keyboard__row"></div>
+      <div class="virtual-keyboard__row"></div>
+      <div class="virtual-keyboard__row"></div>
+    </div>
+  </div>
 </body>
 </html>
